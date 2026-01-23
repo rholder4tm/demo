@@ -1,0 +1,24 @@
+{
+  "name": "n8n-claude-integration",
+  "version": "1.0.0",
+  "description": "Claude Code integration with N8n for workflow management and error diagnostics",
+  "type": "module",
+  "scripts": {
+    "n8n:pull": "node tools/pull-workflows.js",
+    "n8n:push": "node tools/push-workflow.js",
+    "n8n:list": "node tools/list-workflows.js",
+    "n8n:diagnose": "node tools/diagnose-errors.js",
+    "n8n:executions": "node tools/list-executions.js"
+  },
+  "keywords": [
+    "n8n",
+    "claude",
+    "automation",
+    "workflow"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
